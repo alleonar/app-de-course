@@ -1,0 +1,91 @@
+*{
+    font-family: "POPPINS_REG";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../img/background.jpg);
+    margin: auto;
+    text-align: center;
+}
+
+.buy{
+    text-decoration-line: line-through;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+ul{
+    margin: auto;
+    width: 50%;
+    /* border: solid 1px aqua; */
+}
+
+li{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* color: white; */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#appTitle{
+    font-family: "POPPINS_BOLD";
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.articleName {
+    text-align: start;
+    width: 70%;
+}
+
+#addFormZone{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#addFormZone input{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#addFormZone label{
+    color: white;
+}
+
+#deleteAll{
+    margin-bottom: 25px;
+}
+
+.bought{
+    color: rgb(0, 165, 0);
+}
+
+.modify{
+    color: rgb(55, 102, 255);
+}
+
+.delete{
+    color: rgba(255, 0, 0, 0.915);
+}
+
+dialog{
+    position: absolute;
+    margin: auto;
+}
+
+button{
+    padding:0px 5px;
+}

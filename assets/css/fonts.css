@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "OPEN_BOLD" ;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "OPEN_REG" ;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "POPPINS_BOLD" ;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "POPPINS_REG" ;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
